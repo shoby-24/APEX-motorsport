@@ -1,0 +1,12 @@
+{
+  "name": "apex-motorsport",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Apex Motorsport: shared car data and assets for APEX: Racing and APEX: Tuning",
+  "type": "module",
+  "workspaces": ["packages/*"],
+  "scripts": {
+    "test": "node --test packages/*/test/*.test.js"
+  },
+  "engines": { "node": ">=20" }
+}

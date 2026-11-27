@@ -1,0 +1,7 @@
+{
+  "_policy": "Every external file used by any asset must be listed here with source URL, licence and author. Allowed: CC0, CC-BY (credited in game + car packages), OFL for fonts. Not allowed: NC, ND, SA, or anything depicting real branded cars. The pipeline refuses unlisted external files.",
+  "external": [],
+  "original": [
+    { "asset": "aurion_vanta_gt3", "note": "Original design. Body, wheels, brakes, lights, aero and interior are modelled procedurally from scratch in assets/pipeline (signed-distance modelling + Blender Python). Materials are procedural; no external textures, HDRIs or models are used." }
+  ]
+}
