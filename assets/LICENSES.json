@@ -1,0 +1,25 @@
+{
+  "_policy": "Every external file used by any asset must be listed here with source URL, licence and author. Allowed: CC0, CC-BY (credited in game + car packages), OFL for fonts. Not allowed: NC, ND, SA, or anything depicting real branded cars. The pipeline refuses unlisted external files.",
+  "external": [
+    {
+      "asset": "mclaren_p1_gtr_2015",
+      "files": [
+        "McLaren P1 GTR 2015.fbx",
+        "textures/Material_baseColor.jpeg",
+        "textures/Material.036_baseColor.png",
+        "textures/кабра.jpg",
+        "textures/1673155554_grizly-club-p-besshovnaya-tekst.jpg"
+      ],
+      "source": "Supplied by the project owner as a zip upload (2026-11-27). Original download page and author unknown.",
+      "licence": "UNVERIFIED. No licence or readme file was included in the zip. The project owner states it is a free-to-use model.",
+      "caveats": [
+        "Depicts a real branded car: the McLaren name, P1 GTR design and badges are McLaren trademarks/design rights. Kept at the project owner's request; this is an exception to the policy above and needs a licence from the trademark owner before any public or commercial release.",
+        "One texture (1673155554_grizly-club-p-besshovnaya-tekst.jpg) appears to come from a wallpaper site (grizly.club); its licence is unknown.",
+        "Not redistributed in this public repository: the FBX, textures and exported GLBs are git-ignored. Only the conversion scripts (assets/pipeline/import_p1.py, export_p1.py, render_p1.py) are committed."
+      ],
+      "modifications": "Rescaled x0.5, rotated to the asset contract, materials remapped to contract slots, reference-image plane removed, original six-piston calipers (assets/pipeline/wheel.py) fitted because the model has none, LOD1/LOD2 decimated."
+    }
+  ],
+  "original": [],
+  "_note": "The Aurion Vanta GT3 (original, procedural) was removed from the catalogue on 2026-11-27 at the project owner's request; it remains in git history."
+}

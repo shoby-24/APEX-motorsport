@@ -1,0 +1,8 @@
+{
+  "name": "@apex/car-data",
+  "version": "0.1.0",
+  "description": "Engine-free car data: schema, catalogue, spec computation and .ctcar.json read/write for APEX: Racing and APEX: Tuning",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": { ".": "./src/index.js", "./catalogue": "./src/catalogue.js" }
+}

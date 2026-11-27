@@ -1,0 +1,34 @@
+{
+  "id": "mclaren_p1_gtr_2015",
+  "name": "McLaren P1 GTR",
+  "maker": "McLaren",
+  "year": 2015,
+  "fictional": false,
+  "class": "hypercar",
+  "assetVersion": 1,
+  "assetSource": "thirdparty",
+  "lods": {
+    "lod0": "cars/mclaren_p1_gtr_2015/1/lod0.glb",
+    "lod1": "cars/mclaren_p1_gtr_2015/1/lod1.glb",
+    "lod2": "cars/mclaren_p1_gtr_2015/1/lod2.glb"
+  },
+  "dimensions": { "lengthM": 4.68, "widthM": 2.01, "heightM": 1.16, "wheelbaseM": 2.66 },
+  "slots": ["paint_body", "paint_accent", "carbon", "trim_black", "lamp_housing", "glass", "lens_clear", "lens_red",
+            "emissive_drl", "emissive_tail", "mirror_glass", "titanium", "rim", "tyre", "disc", "caliper"],
+  "sockets": {
+    "wing": ["wing"], "wheels": ["wheels"], "exhaust": ["exhaust"], "splitter": ["splitter"], "mirrors": ["mirrors"]
+  },
+  "defaults": {
+    "paint": { "body": { "color": "#4a1fb8", "finish": "metallic", "flake": 0.5, "clearcoat": 1.0 },
+               "accent": { "color": "#111113", "finish": "gloss" }, "caliper": "#d4a017" },
+    "parts": { "wheels": "wheel_p1_gtr_centrelock", "wing": "wing_p1_gtr", "exhaust": "exhaust_p1_gtr", "splitter": "splitter_p1_gtr",
+               "mirrors": "mirrors_p1_gtr", "tyres": "tyre_race_slick" }
+  },
+  "baseSpec": {
+    "massKg": 1440, "powerKw": 735, "redline": 8500,
+    "torqueCurve": [[1500, 700], [3000, 900], [4500, 980], [6500, 960], [8500, 820]],
+    "gears": [3.17, 2.13, 1.62, 1.31, 1.09, 0.93, 0.79], "finalDrive": 3.31,
+    "drag": 0.40, "downforce": 1.45, "grip": 1.22, "brake": 1.20, "drive": "rwd", "weightFront": 0.42
+  },
+  "price": 2950000
+}

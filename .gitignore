@@ -1,0 +1,10 @@
+node_modules/
+assets/build/
+**/__pycache__/
+*.blend1
+fieldcache/
+.DS_Store
+# third-party car sources and builds stay out of this public repo (see assets/LICENSES.json)
+*.fbx
+*.glb
+assets/thirdparty/
