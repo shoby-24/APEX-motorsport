@@ -1,9 +1,11 @@
 [
-  { "id": "wing_swan_gt3", "socket": "wing", "name": "Swan-neck GT wing", "price": 6500, "effects": { "downforce": 0.35, "drag": 0.04, "massKg": 7 } },
+  { "id": "wing_p1_gtr", "socket": "wing", "name": "P1 GTR fixed rear wing", "price": 9500, "effects": { "downforce": 0.40, "drag": 0.045, "massKg": 8 } },
   { "id": "wing_none", "socket": "wing", "name": "No wing", "price": 0, "effects": { "downforce": -0.25, "drag": -0.03, "massKg": 0 } },
-  { "id": "splitter_gt3", "socket": "splitter", "name": "GT3 splitter + canards", "price": 3200, "effects": { "downforce": 0.18, "drag": 0.015, "massKg": 4 } },
-  { "id": "wheel_r12_centrelock", "socket": "wheels", "name": "12-spoke forged centre-lock", "price": 9800, "effects": { "massKg": -14, "grip": 0.01 } },
-  { "id": "exhaust_side_twin", "socket": "exhaust", "name": "Side-exit twin exhaust", "price": 4100, "effects": { "powerKw": 8, "massKg": -6 } },
+  { "id": "splitter_p1_gtr", "socket": "splitter", "name": "P1 GTR front splitter", "price": 4200, "effects": { "downforce": 0.18, "drag": 0.015, "massKg": 4 } },
+  { "id": "splitter_none", "socket": "splitter", "name": "No splitter", "price": 0, "effects": { "downforce": -0.12, "drag": -0.01, "massKg": -4 } },
+  { "id": "mirrors_p1_gtr", "socket": "mirrors", "name": "P1 GTR race mirrors", "price": 900, "effects": { "drag": 0.0 } },
+  { "id": "wheel_p1_gtr_centrelock", "socket": "wheels", "name": "10-spoke centre-lock race wheels", "price": 11800, "effects": { "massKg": -12, "grip": 0.01 } },
+  { "id": "exhaust_p1_gtr", "socket": "exhaust", "name": "Central twin race exhaust", "price": 5200, "effects": { "powerKw": 10, "massKg": -5 } },
   { "id": "tyre_race_slick", "socket": "tyres", "name": "Race slick", "price": 2400, "effects": { "grip": 0.10 } },
   { "id": "tyre_semi_slick", "socket": "tyres", "name": "Semi-slick", "price": 1600, "effects": { "grip": 0.04 } }
 ]

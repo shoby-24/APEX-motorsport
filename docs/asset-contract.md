@@ -9,7 +9,7 @@ Every car and part GLB must follow these rules so both games (APEX: Racing on Th
 ## Nodes
 | Node | Meaning |
 |---|---|
-| `aurion_vanta_gt3` (root) | the car, named by model id |
+| `<model id>` (root, e.g. `mclaren_p1_gtr_2015`) | the car, named by model id |
 | `body` | painted shell incl. lamps, intakes, grooves |
 | `interior` | cockpit (LOD0 and LOD1 only) |
 | `wheel_fl`, `wheel_fr`, `wheel_rl`, `wheel_rr` | rim + tyre + disc + bell. Origin at the hub so games can spin (about Z) and steer (about Y) |
