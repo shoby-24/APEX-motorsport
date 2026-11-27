@@ -1,3 +1,4 @@
 # Apex Motorsport
 
-Shared car data and assets for APEX: Racing and APEX: Tuning.
+Fun motorsport game
+DO NOT COPY CODE WITHOUT PERMISSION YOU COULD GET SUED BY MCLAREN AND OTHER BRANDS THAT ARE USED IN THE GAME
